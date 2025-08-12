@@ -7,5 +7,5 @@ My HTML &amp; CSS learning exercises from SuperSimpleDev
 - To share my learning journey with others.
 
 <p>Credits<p></p>
-<p></p>This course is by [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)  
-Full video: [HTML & CSS Full Course – Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc)</p>
+<p></p>This course is by [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)  </p>
+<p>Full video: [HTML & CSS Full Course – Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc)</p>
