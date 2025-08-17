@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border{
+            width: 200px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+        .image{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+        p{
+            font-family: arial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .name{
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 4px;
+        }
+
+        .friends{
+            margin-left: 8px;
+            color: rgb(100, 100, 100);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        .add-friend{
+            margin-left: 8px;
+            margin-bottom: 8px;
+            border: none;
+            background-color: rgb(24, 119, 242);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: box-shadow 0.3s;
+        }
+        .add-friend:hover{
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        }
+        .add-friend:active{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="border">
+        <img class="image" src="cat.jpg" alt="cat">
+        <p class="name">Oliver</p>
+        <p class="friends">2 mutual friends</p>
+        <button class="add-friend">Add Friend</button>
+    </div>
+</body>
+</html>

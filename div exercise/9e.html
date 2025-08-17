@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border{
+           
+            width: 450px;
+            border-radius: 6px;
+            padding: 12px 12px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+        .profile-picture{
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .text-box{
+            font-size: 18px;
+            border: none;
+            width: 300px;
+            vertical-align: middle;
+        }
+
+        .tweet-button{
+            background-color: rgb(29, 155, 240);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="border">
+        <img class="profile-picture" src="cat.jpg" alt="cat">
+        <input class="text-box" type="text" placeholder="What's happening?">
+        <button class="tweet-button">Tweet</button>
+    </div>
+</body>
+</html>
